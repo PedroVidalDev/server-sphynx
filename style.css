@@ -1,0 +1,113 @@
+body{
+    background-color: #0f0613
+}
+
+*{
+    font-family: arial;
+}
+
+ul{
+    position: relative;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    top:2%;
+    left:44%;
+    overflow:hidden;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size:lem;
+}
+        
+li { float:left;}
+        
+a:link,a:visited { 	
+    display:block;
+    font-weight:bold;
+    color:rgb(136, 30, 168);
+    background-color:none;
+    text-align:center;
+    padding:20px 10px;
+    text-decoration:none;
+}
+        
+a:hover, a:active {color:#652781;}
+
+#imgpos0 { 
+    position:absolute;
+	left:35%;
+	top:0%;
+}
+
+caption{
+    font-size: 1.2em;
+    font-family: "Arial";
+    color: #962acf;
+    text-shadow: 0 0 3px rgb(136, 30, 168, 0);
+    filter: brightness(1);
+    transition: text-shadow 0.5s, color 0.5s, filter 0.5s;
+}
+
+caption:hover{
+    color: #0f0613;
+    text-shadow: 0 0 3px rgb(136, 30, 168, 1);
+    filter: brightness(1.75);
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td, th {border: 2px solid #000;}
+
+td{
+    color: #000;
+    background-color: #ded9ff;
+    height: 30px;
+}
+
+th{ 
+    color: #fff;
+    background-color: #574677;
+    color:white;
+    font-family: "Arial";
+    height: 50px;
+}
+
+th.salas_title{
+    width: 20%;
+}
+
+th.estado_title{
+    width: 30%;
+}
+
+th.id_title{
+    width: 30%;
+}
+
+th.horario_title{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
